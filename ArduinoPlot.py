@@ -14,7 +14,7 @@ plt.ion()
 fig, ax = plt.subplots()
 line, = ax.plot(data)
 
-ax.set_ylim(0, 1000)  
+ax.set_ylim(0, 4095)  
 ax.set_title("Microphone Signal")
 ax.set_xlabel("Samples")
 ax.set_ylabel("Amplitude")
